@@ -12,7 +12,7 @@ A refreshable braille display or braille terminal is an electro-mechanical devic
 
 ### Hardware needed
 In order to get started you are going to need:
-- An Arduino board or any other board compatible with [Johnny Five](http://johnny-five.io/platform-support/). Depending on the GPIO pins of the board you can expand the prototype. Without any modifications each braille unit requires 6 GPIO pins.
+- An Arduino board or any other board compatible with [Johnny Five](http://johnny-five.io/platform-support/). Depending on the GPIO pins of the board you can expand the prototype. Without any modifications each braille unit requires 6 GPIO pins. An Arduino UNO is highly recommended.
 - A few jumper wires
 - A breadboard
 - 6 5V solenoids per braille unit
@@ -27,16 +27,21 @@ All the mechanical parts are modular and can fit into a sigle unit. You can prin
 ### Software needed
 You need to install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) and also install [Node.js and NPM](https://nodejs.org/en/download/).
 
+### Start developing with Johnny Five
+In to order to start coding the prototype you need to check that the Arduino is properly connected and loaded with the Firmdata prototocol. You can take a look at this [tutorial](https://www.pubnub.com/blog/2016-05-25-howcreate-a-smart-device-with-arduino-and-node-js-using-johnny-five/) for more information.
+
+_Pro tip:_ Start small. You can purchase an Arduino and few LED light as a starter kit, try to play around with the Johnny Five framework, configure your development station and aftewards
 
 ### Schematics / Circuit
 Each solenoid is controlled through an Arduino pin. Solenoids are wired with a MOSFET and a resistor. All solenoids are sharing the same ground with the Arduino. A rough sketchup of a solenoid connected with the Arduino looks like this.
+
 ![Circuit](./schematics/braille_prototype.png)
 
 ## License
 MIT, see the [LICENSE](./LICENSE.md) file.
 
 ## Resources
-http://www.braille.org/papers/jvib0696/vb960329.htm
-https://lincs.ed.gov/publications/pdf/LiteracyEmployment2010.pdf
-http://www.who.int/blindness/publications/globaldata/en/
-http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
+- http://www.braille.org/papers/jvib0696/vb960329.htm
+- https://lincs.ed.gov/publications/pdf/LiteracyEmployment2010.pdf
+- http://www.who.int/blindness/publications/globaldata/en/
+- http://www.who.int/news-room/fact-sheets/detail/blindness-and-visual-impairment
