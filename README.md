@@ -30,7 +30,7 @@ You need to install the [Arduino IDE](https://www.arduino.cc/en/Main/Software) a
 ### Start developing with Johnny Five
 In to order to start coding the prototype you need to check that the Arduino is properly connected and loaded with the Firmdata prototocol. You can take a look at this [tutorial](https://www.pubnub.com/blog/2016-05-25-howcreate-a-smart-device-with-arduino-and-node-js-using-johnny-five/) for more information.
 
-_Pro tip:_ Start small. You can purchase an Arduino and few LED light as a starter kit, try to play around with the Johnny Five framework, configure your development station and aftewards
+_Pro tip:_ Start small. You can purchase an Arduino and few LED light as a starter kit. Try to play around with the Johnny Five framework, configure your development station and afterwards move on with more advanced projects.
 
 ### Schematics / Circuit
 Each solenoid is controlled through an Arduino pin. Solenoids are wired with a MOSFET and a resistor. All solenoids are sharing the same ground with the Arduino. A rough sketchup of a solenoid connected with the Arduino looks like this.
