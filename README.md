@@ -8,7 +8,7 @@ In order to help these people we have decided to prototype an open source refres
 A refreshable braille display or braille terminal is an electro-mechanical device for displaying braille characters, usually by means of round-tipped pins raised through holes in a flat surface. Visually impaired computer users who cannot use a computer monitor can use it to read text output. Speech synthesizers are also commonly used for the same task, and a blind user may switch between the two systems or use both at the same time depending on circumstances. Deafblind computer users may also use refreshable braille displays.
 
 ### How this prototype looks like ?
-![Prototype demo](https://media.giphy.com/media/vNyjckQKWmfDuqWVyD/giphy.gif)
+![Prototype demo](https://i.giphy.com/media/vNyjckQKWmfDuqWVyD/giphy.webp)
 
 ### Hardware needed
 In order to get started you are going to need:
