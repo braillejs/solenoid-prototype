@@ -7,7 +7,7 @@ module.exports = (five, pins) => {
   const solenoids = pins.map(p => new five.Pin(p))
   close(solenoids);
   return status => {
-    if (status === null || status === []) {
+    if (!status || !status.length) {
       // reset
       close(solenoids);
     } else {
